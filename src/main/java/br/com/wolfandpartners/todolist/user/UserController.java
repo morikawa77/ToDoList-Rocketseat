@@ -23,7 +23,7 @@ public class UserController {
 
     if (user != null) {
       // throw new RuntimeException("User already exists");
-      System.out.println("Usuário já existe");  
+      // System.out.println("Usuário já existe");  
       return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Usuário já existe");
     }
 
